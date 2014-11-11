@@ -1,0 +1,145 @@
+html, body, #page, .site-main, .section-hero {
+    height: 100%;
+}
+body {
+    font-size: 18px;
+}
+p, span, ul, li, h1, h2, h3, h4, h5, label {
+    color: white;
+}
+
+@media (max-width:1200px) {
+    .section {
+        padding: 78px 0;
+    }
+}
+@media (max-width:767px) {
+    .section {
+        padding: 52px 0;
+    }
+}
+.section .section-header {
+    text-align: center;
+    padding: 100px 0 75px;
+}
+@media (max-width:767px) {
+    .section .section-header {
+        padding-bottom: 26px;
+    }
+}
+.section .section-title {
+    font-family: "Poiret One";
+    margin: 0;
+    text-transform: uppercase;
+    color: #2c3e50;
+    font-weight: 400;
+    font-size: 64px;
+}
+.section .section-description {
+    color: #999;
+    margin: 26px 300px 0;
+}
+@media (max-width:1200px) {
+    .section .section-description {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}
+@media (max-width:992px) {
+    .section .section-description {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+@media (max-width:767px) {
+    .section .section-description {
+        font-size: 14px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+.section.section-inverse {
+    background-color: #2c3e50;
+    color: #969fa8;
+}
+.section.section-inverse .section-title {
+    color: #fff;
+}
+.section.section-inverse .section-description {
+    color: #969fa8;
+}
+.section.section-inverse .form-control {
+    border-color: transparent;
+    box-shadow: none;
+}
+.section-hero {
+    text-align: center;
+    background: url(../images/background.jpg) center;
+    background-size: cover;
+}
+@media (max-width:1200px) {
+    .section-hero {
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
+}
+@media (max-width:992px) {
+    .section-hero {
+        background-image: none;
+    }
+}
+@media (max-width:767px) {
+    .section-hero {
+        padding: 78px 0;
+    }
+}
+.section-hero .section-header {
+    padding-bottom: 78px;
+}
+@media (max-width:767px) {
+    .section-hero .section-header {
+        padding-bottom: 52px;
+    }
+}
+@media (max-width:1200px) {
+    .section-hero .site-logo {
+        padding-bottom: 78px;
+    }
+}
+@media (max-width:767px) {
+    .section-hero .site-logo {
+        padding-bottom: 52px;
+    }
+    .section-hero .site-logo img {
+        max-height: 104px;
+    }
+}
+@media (max-width:1200px) {
+    .section-hero .cta {
+        padding-bottom: 78px;
+    }
+}
+@media (max-width:992px) {
+    .section-hero .cta {
+        padding-bottom: 182px;
+    }
+}
+@media (max-width:767px) {
+    .section-hero .cta {
+        padding-bottom: 26px;
+    }
+}
+
+.section-content-interior {
+    background-color: black;
+    background-color: rgba(0,0,0,0.7);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 1em;
+}
+form {
+    text-align: left;
+}
